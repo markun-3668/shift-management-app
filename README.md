@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+﻿# シフト表自動ディスパッチツール
 
-## Getting Started
+遺伝的アルゴリズムを使用してシフト表を自動的に最適化するWebアプリケーションです。
 
-First, run the development server:
+##  機能
+
+- **シフト需要の入力**: 各時間帯の必要人員数を設定
+- **スタッフ情報の管理**: スタッフの可用性とスキルレベルを管理
+- **自動最適化**: 遺伝的アルゴリズムによる最適なシフト配置
+- **視覚的な結果表示**: カラーコードによる直感的なシフト表表示
+- **制約考慮**: スタッフの可用性と需要の バランスを自動調整
+
+##  技術スタック
+
+- **Next.js 14**: React フレームワーク
+- **TypeScript**: 型安全性
+- **Tailwind CSS**: スタイリング
+- **遺伝的アルゴリズム**: 最適化エンジン
+
+##  デモ
+
+[ライブデモを見る](https://[あなたのGitHubユーザー名].github.io/shift-management-app)
+
+##  ローカル開発
 
 ```bash
+# 依存関係のインストール
+npm install
+
+# 開発サーバーの起動
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# ビルド
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+##  デプロイメント
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+このプロジェクトはGitHub Pagesに自動デプロイされます。`main`ブランチにプッシュすると、GitHub Actionsが自動的にビルドとデプロイを実行します。
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+##  使い方
 
-## Learn More
+1. **シフト需要の入力**: 各時間帯に必要なスタッフ数を入力
+2. **スタッフ情報の設定**: スタッフの可用性とスキルレベルを設定
+3. **最適化の実行**: 遺伝的アルゴリズムによる自動最適化
+4. **結果の確認**: 最適化されたシフト表の確認と調整
 
-To learn more about Next.js, take a look at the following resources:
+##  ライセンス
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT License
