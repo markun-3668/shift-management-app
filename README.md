@@ -1,4 +1,4 @@
-﻿# シフト表自動ディスパッチツール
+# シフト表自動ディスパッチツール
 
 遺伝的アルゴリズムを使用してシフト表を自動的に最適化するWebアプリケーションです。
 
@@ -19,7 +19,7 @@
 
 ##  デモ
 
-[ライブデモを見る](https://[あなたのGitHubユーザー名].github.io/shift-management-app)
+[ライブデモを見る](https://markun-3668.github.io/shift-management-app)
 
 ##  ローカル開発
 
