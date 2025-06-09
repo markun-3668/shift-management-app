@@ -19,7 +19,7 @@
 
 ##  デモ
 
-[ライブデモを見る](https://markun-3668.github.io/shift-management-app)
+[ライブデモを見る](https://markun-3668.github.io/shift-management)
 
 ##  ローカル開発
 
